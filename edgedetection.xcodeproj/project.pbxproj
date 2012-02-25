@@ -1,0 +1,253 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1B2686AF14F41E1C00357964 /* goldengate.png in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1B2686AD14F41D0000357964 /* goldengate.png */; };
+		1BDD607314F1B0E5002512B5 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1BDD607214F1B0E5002512B5 /* main.cpp */; };
+		1BDD608014F1B109002512B5 /* clpng.c in Sources */ = {isa = PBXBuildFile; fileRef = 1BDD607C14F1B109002512B5 /* clpng.c */; };
+		1BDD608114F1B109002512B5 /* loadtext.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1BDD607E14F1B109002512B5 /* loadtext.cpp */; };
+		1BDD608514F1B162002512B5 /* kernel.cl in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1BDD608414F1B15B002512B5 /* kernel.cl */; };
+		1BDD608914F1B193002512B5 /* libpng.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BDD608714F1B193002512B5 /* libpng.dylib */; };
+		1BDD608A14F1B193002512B5 /* OpenCL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BDD608814F1B193002512B5 /* OpenCL.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		1BDD608214F1B135002512B5 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 7;
+			files = (
+				1BDD608514F1B162002512B5 /* kernel.cl in CopyFiles */,
+				1B2686AF14F41E1C00357964 /* goldengate.png in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1B2686AD14F41D0000357964 /* goldengate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = goldengate.png; sourceTree = "<group>"; };
+		1BDD606E14F1B0E5002512B5 /* edgedetection */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = edgedetection; sourceTree = BUILT_PRODUCTS_DIR; };
+		1BDD607214F1B0E5002512B5 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		1BDD607B14F1B109002512B5 /* cl.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = cl.hpp; sourceTree = "<group>"; };
+		1BDD607C14F1B109002512B5 /* clpng.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = clpng.c; sourceTree = "<group>"; };
+		1BDD607D14F1B109002512B5 /* clpng.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = clpng.h; sourceTree = "<group>"; };
+		1BDD607E14F1B109002512B5 /* loadtext.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = loadtext.cpp; sourceTree = "<group>"; };
+		1BDD607F14F1B109002512B5 /* loadtext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = loadtext.h; sourceTree = "<group>"; };
+		1BDD608414F1B15B002512B5 /* kernel.cl */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.opencl; name = kernel.cl; path = edgedetection/kernel.cl; sourceTree = "<group>"; };
+		1BDD608714F1B193002512B5 /* libpng.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libpng.dylib; path = ../../../../../usr/local/lib/libpng.dylib; sourceTree = "<group>"; };
+		1BDD608814F1B193002512B5 /* OpenCL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenCL.framework; path = ../../../../../System/Library/Frameworks/OpenCL.framework; sourceTree = "<group>"; };
+		1BDD608D14F26B95002512B5 /* clerr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = clerr.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1BDD606B14F1B0E5002512B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BDD608914F1B193002512B5 /* libpng.dylib in Frameworks */,
+				1BDD608A14F1B193002512B5 /* OpenCL.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1BDD606314F1B0E5002512B5 = {
+			isa = PBXGroup;
+			children = (
+				1BDD608614F1B179002512B5 /* Frameworks */,
+				1BDD608314F1B142002512B5 /* Kernels */,
+				1BDD607114F1B0E5002512B5 /* edgedetection */,
+				1BDD606F14F1B0E5002512B5 /* Products */,
+				1B2686AD14F41D0000357964 /* goldengate.png */,
+			);
+			sourceTree = "<group>";
+		};
+		1BDD606F14F1B0E5002512B5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1BDD606E14F1B0E5002512B5 /* edgedetection */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1BDD607114F1B0E5002512B5 /* edgedetection */ = {
+			isa = PBXGroup;
+			children = (
+				1BDD607B14F1B109002512B5 /* cl.hpp */,
+				1BDD607C14F1B109002512B5 /* clpng.c */,
+				1BDD607D14F1B109002512B5 /* clpng.h */,
+				1BDD607E14F1B109002512B5 /* loadtext.cpp */,
+				1BDD607F14F1B109002512B5 /* loadtext.h */,
+				1BDD607214F1B0E5002512B5 /* main.cpp */,
+				1BDD608D14F26B95002512B5 /* clerr.h */,
+			);
+			path = edgedetection;
+			sourceTree = "<group>";
+		};
+		1BDD608314F1B142002512B5 /* Kernels */ = {
+			isa = PBXGroup;
+			children = (
+				1BDD608414F1B15B002512B5 /* kernel.cl */,
+			);
+			name = Kernels;
+			sourceTree = "<group>";
+		};
+		1BDD608614F1B179002512B5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1BDD608714F1B193002512B5 /* libpng.dylib */,
+				1BDD608814F1B193002512B5 /* OpenCL.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1BDD606D14F1B0E5002512B5 /* edgedetection */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1BDD607814F1B0E5002512B5 /* Build configuration list for PBXNativeTarget "edgedetection" */;
+			buildPhases = (
+				1BDD606A14F1B0E5002512B5 /* Sources */,
+				1BDD606B14F1B0E5002512B5 /* Frameworks */,
+				1BDD608214F1B135002512B5 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = edgedetection;
+			productName = edgedetection;
+			productReference = 1BDD606E14F1B0E5002512B5 /* edgedetection */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1BDD606514F1B0E5002512B5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 1BDD606814F1B0E5002512B5 /* Build configuration list for PBXProject "edgedetection" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1BDD606314F1B0E5002512B5;
+			productRefGroup = 1BDD606F14F1B0E5002512B5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1BDD606D14F1B0E5002512B5 /* edgedetection */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1BDD606A14F1B0E5002512B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BDD607314F1B0E5002512B5 /* main.cpp in Sources */,
+				1BDD608014F1B109002512B5 /* clpng.c in Sources */,
+				1BDD608114F1B109002512B5 /* loadtext.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1BDD607614F1B0E5002512B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		1BDD607714F1B0E5002512B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		1BDD607914F1B0E5002512B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1BDD607A14F1B0E5002512B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1BDD606814F1B0E5002512B5 /* Build configuration list for PBXProject "edgedetection" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1BDD607614F1B0E5002512B5 /* Debug */,
+				1BDD607714F1B0E5002512B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1BDD607814F1B0E5002512B5 /* Build configuration list for PBXNativeTarget "edgedetection" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1BDD607914F1B0E5002512B5 /* Debug */,
+				1BDD607A14F1B0E5002512B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1BDD606514F1B0E5002512B5 /* Project object */;
+}
